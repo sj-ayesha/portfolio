@@ -1,7 +1,6 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo/>
+    <div class="background-header">
       <h1 class="title">
         portfolio
       </h1>
@@ -34,11 +33,16 @@ export default {
 
 <style>
 .container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.background-header{
+  background-image: url("../images/background.jpg");
+  height: 500px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .title {
