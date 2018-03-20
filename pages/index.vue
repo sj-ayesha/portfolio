@@ -2,10 +2,10 @@
   <section class="container">
     <div class="background-header">
       <h1 class="title">
-        portfolio
+        Title
       </h1>
       <h2 class="subtitle">
-        portfolio vuejs
+        vuejs
       </h2>
       <div class="links">
         <a
@@ -38,10 +38,12 @@ export default {
 }
 
 .background-header{
-  background-image: url("../images/background.jpg");
-  height: 500px; 
+  background-image: url("../images/background-2.jpg");
+  height: 662px; 
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: brightness(.8);
+  filter: brightness(.8);
 
 }
 
